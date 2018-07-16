@@ -1,7 +1,9 @@
+This repository contains some Python functions to plot OpenFOAM data with Matplotlib.
+
 mplFOAM
 =======
 
-Some Python functions to plot OpenFOAM data with Matplotlib using paraview.simple and numpy_support from vtk.util.
+This module contains functions to plot OpenFOAM data with Matplotlib using paraview.simple and numpy_support from vtk.util.
 
 At present time it only support:
 * surface plot in slice
@@ -9,6 +11,7 @@ At present time it only support:
 
 plot_probes
 ===========
+
 This command line utility plots the probes signals written in the postProcessing/probes/0 directory
 It computes the number of probe(s) and plot the field(s) signal(s) at the probes.
 
@@ -33,3 +36,4 @@ plot_probes.py -f U p -p 0 1
 will produce
 
 ![U field signals](/U_field_probes-0-1.png)
+![p field signals](/p_field_probes-0-1.png)

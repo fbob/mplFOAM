@@ -36,4 +36,4 @@ plot_probes.py -f U p -p 0 1
 will produce
 
 ![U field signals](/screenshots/U_field_probes-0-1.png)
-![p field signals](//screenshots/p_field_probes-0-1.png)
+![p field signals](/screenshots/p_field_probes-0-1.png)

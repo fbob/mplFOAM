@@ -12,6 +12,7 @@ plot_probes
 This command line utility plots the probes signals written in the postProcessing/probes/0 directory
 It computes the number of probe(s) and plot the field(s) signal(s) at the probes.
 
+```bash
 Usage: plot_probes.py [-h] [-p PROBES [PROBES ...]] [-f FIELDS [FIELDS ...]]
 
 Plot fields signals versus Time/Iteration at choosen probes. 
@@ -23,3 +24,12 @@ optional arguments:
                         list of integers corresponding to the probes numbers
   -f FIELDS [FIELDS ...], --fields FIELDS [FIELDS ...]
                         list of string corresponding to the fields names
+```
+
+For example, the command line invocation:
+```bash
+plot_probes.py -f U p -p 0 1
+```
+will produce
+
+![U field signals](/U_field_probes-0-1.png)
